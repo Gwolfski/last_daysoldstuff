@@ -2,10 +2,17 @@
 gui.cancel=:(Cancel):
 gui.back=:(Back):
 gui.toMenu=:(Return.to.Menu):
-gui.up=;(Up):
+gui.up=:(Up):
 gui.down=:(Down):
 gui.yes=:(Confirm):
 gui.no=:(Deny):
+gui.achievements=:(Survival.Checklist):
+gui.stats=:(Stats):
+gui.all=:(Everythiing):
+gui.none=:(Null):
+gui.toTitle=:(Return.to.Main.Screen):
+
+options.resourcepack=:(Resource.Pack):
 
 menu.singleplayer=:(Play_Singleplayer):
 menu.multiplayer=:(Play_Multiplayer):
@@ -110,6 +117,12 @@ selectServer.deleteWarning=will be lost forever! (A long time!)
 selectServer.deleteButton=:(Delete):
 selectServer.refresh=:(Refresh):
 selectServer.hiddenAddress=:(Hidden):
+
+
+addServer.resourcePack=:(Server.Resource.pack:
+addServer.resourcePack.disabled=Not.Active):
+addServer.resourcePack.enabled=ACtive):
+addServer.resourcePack.prompt=Ask.First):
 addServer.title=:(Edit.Server.Info):
 addServer.enterName=:(Server.Name):
 addServer.enterIp=:(Server.Address):
@@ -1059,8 +1072,7 @@ enchantment.level.8=:(8):
 enchantment.level.9=:(9):
 enchantment.level.10=:(10):
 
-gui.achievements=:(Survival.Checklist):
-gui.stats=:(Stats):
+
 
 stat.generalButton=:(General):
 stat.blocksButton=:(Blocks):
@@ -1105,7 +1117,7 @@ stat.breakItem=%1$s Depleted
 
 achievement.get=Achievement get!
 
-achievement.taken=Taken!
+achievement.taken=:(Taken):
 
 achievement.requires=*REQUIRES:'%1$s'*
 achievement.openInventory=Inventory Management
